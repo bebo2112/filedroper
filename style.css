@@ -1,0 +1,28 @@
+body {
+  background-color: beige;
+}
+
+.dropzone {
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #95aac9;
+  border: 1px dashed #efefef;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  order: -1;
+}
+
+.dropzone label {
+  cursor: pointer;
+}
+
+.dropzone-file-preview {
+  width: 100%;
+  color: #95aac9;
+  border: 0px 1px 1px 1px #efefef;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  background-color: #fff;
+  order: -1;
+}
